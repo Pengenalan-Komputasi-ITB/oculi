@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ravielze/oculi/token"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/token"
 )
 
 type (

@@ -1,9 +1,9 @@
 package health
 
 import (
-	"github.com/ravielze/oculi/common/model/dto/health"
-	"github.com/ravielze/oculi/example/resources"
-	"github.com/ravielze/oculi/request"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/common/model/dto/health"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/example/resources"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/request"
 )
 
 type (

@@ -1,8 +1,8 @@
 package external
 
 import (
-	"github.com/ravielze/oculi/hash"
-	"github.com/ravielze/oculi/hash/bcrypt"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/hash"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/hash/bcrypt"
 )
 
 func NewHash() (hash.Hash, error) {

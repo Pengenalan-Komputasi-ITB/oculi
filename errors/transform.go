@@ -4,7 +4,7 @@ import (
 	"errors"
 
 	"github.com/minio/minio-go/v7"
-	consts "github.com/ravielze/oculi/constant/errors"
+	consts "github.com/Pengenalan-Komputasi-ITB/oculi/constant/errors"
 	"gorm.io/gorm"
 )
 

@@ -8,8 +8,8 @@ import (
 	ut "github.com/go-playground/universal-translator"
 	v10 "github.com/go-playground/validator/v10"
 	en_translations "github.com/go-playground/validator/v10/translations/en"
-	"github.com/ravielze/oculi/validator"
-	"github.com/ravielze/oculi/validator/v10/custom"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/validator"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/validator/v10/custom"
 )
 
 type (

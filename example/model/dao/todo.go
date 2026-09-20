@@ -1,7 +1,7 @@
 package dao
 
 import (
-	"github.com/ravielze/oculi/common/model/dao"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/common/model/dao"
 )
 
 type (

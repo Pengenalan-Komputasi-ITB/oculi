@@ -1,8 +1,8 @@
 package domain
 
 import (
-	todoService "github.com/ravielze/oculi/example/domain/todo/service"
-	userService "github.com/ravielze/oculi/example/domain/user/service"
+	todoService "github.com/Pengenalan-Komputasi-ITB/oculi/example/domain/todo/service"
+	userService "github.com/Pengenalan-Komputasi-ITB/oculi/example/domain/user/service"
 	"go.uber.org/dig"
 )
 

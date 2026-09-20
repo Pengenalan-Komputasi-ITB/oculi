@@ -3,7 +3,7 @@ package config
 import (
 	"time"
 
-	"github.com/ravielze/oculi/config"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/config"
 )
 
 type (

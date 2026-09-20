@@ -10,9 +10,9 @@ import (
 
 	gomock "github.com/golang/mock/gomock"
 	echo "github.com/labstack/echo/v4"
-	auth "github.com/ravielze/oculi/common/model/dto/auth"
-	sql "github.com/ravielze/oculi/persistent/sql"
-	request "github.com/ravielze/oculi/request"
+	auth "github.com/Pengenalan-Komputasi-ITB/oculi/common/model/dto/auth"
+	sql "github.com/Pengenalan-Komputasi-ITB/oculi/persistent/sql"
+	request "github.com/Pengenalan-Komputasi-ITB/oculi/request"
 )
 
 // MockReqContext is a mock of ReqContext interface.

@@ -13,7 +13,7 @@ import (
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 	"github.com/labstack/gommon/log"
-	oculiContext "github.com/ravielze/oculi/context"
+	oculiContext "github.com/Pengenalan-Komputasi-ITB/oculi/context"
 )
 
 type (

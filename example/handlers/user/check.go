@@ -1,10 +1,10 @@
 package user
 
 import (
-	"github.com/ravielze/oculi/example/constants"
-	"github.com/ravielze/oculi/example/model/dao"
-	"github.com/ravielze/oculi/example/model/dto/user"
-	"github.com/ravielze/oculi/request"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/example/constants"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/example/model/dao"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/example/model/dto/user"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/request"
 )
 
 func (h *handler) Check(req request.ReqContext) (user.UserResponse, error) {

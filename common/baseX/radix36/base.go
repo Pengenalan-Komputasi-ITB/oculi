@@ -5,7 +5,7 @@ import (
 
 	"github.com/gofrs/uuid"
 	"github.com/martinlindhe/base36"
-	"github.com/ravielze/oculi/common/baseX"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/common/baseX"
 )
 
 // Int is int64

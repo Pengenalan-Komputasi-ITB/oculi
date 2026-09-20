@@ -4,7 +4,7 @@ import (
 	"time"
 
 	v10 "github.com/go-playground/validator/v10"
-	"github.com/ravielze/oculi/validator"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/validator"
 )
 
 type (

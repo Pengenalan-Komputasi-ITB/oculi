@@ -7,11 +7,11 @@ import (
 	"strings"
 	"time"
 
-	consts "github.com/ravielze/oculi/constant/errors"
-	"github.com/ravielze/oculi/encoding/jsoniter"
-	errOculi "github.com/ravielze/oculi/errors"
-	"github.com/ravielze/oculi/redis"
-	"github.com/ravielze/oculi/request"
+	consts "github.com/Pengenalan-Komputasi-ITB/oculi/constant/errors"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/encoding/jsoniter"
+	errOculi "github.com/Pengenalan-Komputasi-ITB/oculi/errors"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/redis"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/request"
 )
 
 type (

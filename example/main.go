@@ -1,6 +1,6 @@
 package main
 
-import "github.com/ravielze/oculi/example/app"
+import "github.com/Pengenalan-Komputasi-ITB/oculi/example/app"
 
 func main() {
 	app.Run()

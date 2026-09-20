@@ -2,7 +2,7 @@ package jsoniter
 
 import (
 	jsoniter "github.com/json-iterator/go"
-	"github.com/ravielze/oculi/encoding"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/encoding"
 )
 
 type (

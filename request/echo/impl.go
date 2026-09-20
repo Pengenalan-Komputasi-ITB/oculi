@@ -5,10 +5,10 @@ import (
 	"unsafe"
 
 	"github.com/labstack/echo/v4"
-	"github.com/ravielze/oculi/common/model/dto/auth"
-	consts "github.com/ravielze/oculi/constant/key"
-	"github.com/ravielze/oculi/persistent/sql"
-	"github.com/ravielze/oculi/request"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/common/model/dto/auth"
+	consts "github.com/Pengenalan-Komputasi-ITB/oculi/constant/key"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/persistent/sql"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/request"
 )
 
 type (

@@ -3,8 +3,8 @@ package sqlv2
 import (
 	"database/sql"
 
-	"github.com/ravielze/oculi/errors"
-	sqlOculi "github.com/ravielze/oculi/persistent/sql"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/errors"
+	sqlOculi "github.com/Pengenalan-Komputasi-ITB/oculi/persistent/sql"
 	"gorm.io/gorm"
 )
 

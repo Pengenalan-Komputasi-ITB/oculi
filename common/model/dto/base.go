@@ -1,8 +1,8 @@
 package dto
 
 import (
-	"github.com/ravielze/oculi/common/model/dao"
-	time "github.com/ravielze/oculi/constant/timeformat"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/common/model/dao"
+	time "github.com/Pengenalan-Komputasi-ITB/oculi/constant/timeformat"
 )
 
 type (

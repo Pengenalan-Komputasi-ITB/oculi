@@ -4,8 +4,8 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/ravielze/oculi/logs/zap"
-	"github.com/ravielze/oculi/persistent/sql"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/logs/zap"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/persistent/sql"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
 )

@@ -3,7 +3,7 @@ package context
 import (
 	"net/http"
 
-	"github.com/ravielze/oculi/request"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/request"
 )
 
 func (ctx *Context) BindValidate(obj interface{}) {

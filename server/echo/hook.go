@@ -1,6 +1,6 @@
 package webserver
 
-import "github.com/ravielze/oculi/server"
+import "github.com/Pengenalan-Komputasi-ITB/oculi/server"
 
 func (w *WebServer) BeforeRun(hf server.HookFunction) server.Server {
 	w.beforeRun = append(w.beforeRun, hf)

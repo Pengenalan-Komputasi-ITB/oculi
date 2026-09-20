@@ -2,10 +2,10 @@ package user
 
 import (
 	"github.com/labstack/echo/v4"
-	oculiContext "github.com/ravielze/oculi/context"
-	"github.com/ravielze/oculi/example/constants"
-	dto "github.com/ravielze/oculi/example/model/dto/user"
-	request "github.com/ravielze/oculi/request/echo"
+	oculiContext "github.com/Pengenalan-Komputasi-ITB/oculi/context"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/example/constants"
+	dto "github.com/Pengenalan-Komputasi-ITB/oculi/example/model/dto/user"
+	request "github.com/Pengenalan-Komputasi-ITB/oculi/request/echo"
 )
 
 func (c *Controller) RegisterUser(ec echo.Context) error {

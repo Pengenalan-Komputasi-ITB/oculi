@@ -3,9 +3,9 @@ package infrastructures
 import (
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
-	"github.com/ravielze/oculi/example/infrastructures/rest"
-	oculiRest "github.com/ravielze/oculi/infrastructures/rest"
-	ws "github.com/ravielze/oculi/server/echo"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/example/infrastructures/rest"
+	oculiRest "github.com/Pengenalan-Komputasi-ITB/oculi/infrastructures/rest"
+	ws "github.com/Pengenalan-Komputasi-ITB/oculi/server/echo"
 	"go.uber.org/dig"
 )
 

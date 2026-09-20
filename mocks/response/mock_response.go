@@ -8,8 +8,8 @@ import (
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
-	context "github.com/ravielze/oculi/context"
-	request "github.com/ravielze/oculi/request"
+	context "github.com/Pengenalan-Komputasi-ITB/oculi/context"
+	request "github.com/Pengenalan-Komputasi-ITB/oculi/request"
 )
 
 // MockResponder is a mock of Responder interface.

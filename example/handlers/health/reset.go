@@ -1,9 +1,9 @@
 package health
 
 import (
-	consts "github.com/ravielze/oculi/constant/key"
-	"github.com/ravielze/oculi/example/constants"
-	"github.com/ravielze/oculi/request"
+	consts "github.com/Pengenalan-Komputasi-ITB/oculi/constant/key"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/example/constants"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/request"
 )
 
 func (h *handler) Reset(ctx request.ReqContext) error {

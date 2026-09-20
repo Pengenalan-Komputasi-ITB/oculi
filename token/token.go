@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/gofrs/uuid"
-	"github.com/ravielze/oculi/common/model/dto/auth"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/common/model/dto/auth"
 )
 
 type (

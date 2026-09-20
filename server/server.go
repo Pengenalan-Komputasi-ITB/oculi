@@ -4,8 +4,8 @@ import (
 	"time"
 
 	"github.com/labstack/echo/v4"
-	"github.com/ravielze/oculi/logs"
-	"github.com/ravielze/oculi/validator"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/logs"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/validator"
 )
 
 type (

@@ -1,11 +1,11 @@
 package service
 
 import (
-	"github.com/ravielze/oculi/example/domain/todo/repository"
-	"github.com/ravielze/oculi/example/model/dao"
-	todoDto "github.com/ravielze/oculi/example/model/dto/todo"
-	"github.com/ravielze/oculi/example/resources"
-	"github.com/ravielze/oculi/request"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/example/domain/todo/repository"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/example/model/dao"
+	todoDto "github.com/Pengenalan-Komputasi-ITB/oculi/example/model/dto/todo"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/example/resources"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/request"
 )
 
 type (

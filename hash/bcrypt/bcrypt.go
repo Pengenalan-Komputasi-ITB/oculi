@@ -1,8 +1,8 @@
 package bcrypt
 
 import (
-	consts "github.com/ravielze/oculi/constant/errors"
-	"github.com/ravielze/oculi/hash"
+	consts "github.com/Pengenalan-Komputasi-ITB/oculi/constant/errors"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/hash"
 	bcryptLib "golang.org/x/crypto/bcrypt"
 )
 

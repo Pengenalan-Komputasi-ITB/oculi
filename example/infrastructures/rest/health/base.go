@@ -2,8 +2,8 @@ package health
 
 import (
 	"github.com/labstack/echo/v4"
-	"github.com/ravielze/oculi/example/handlers"
-	"github.com/ravielze/oculi/example/resources"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/example/handlers"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/example/resources"
 	"go.uber.org/dig"
 )
 

@@ -3,7 +3,7 @@ package sql
 import (
 	"time"
 
-	"github.com/ravielze/oculi/logs"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/logs"
 )
 
 type (

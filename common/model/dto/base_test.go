@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ravielze/oculi/common/model/dao"
-	"github.com/ravielze/oculi/constant/oculiTime"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/common/model/dao"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/constant/oculiTime"
 	"github.com/stretchr/testify/assert"
 	"gorm.io/gorm"
 )

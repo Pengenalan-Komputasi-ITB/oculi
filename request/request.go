@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/labstack/echo/v4"
-	"github.com/ravielze/oculi/common/model/dto/auth"
-	"github.com/ravielze/oculi/persistent/sql"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/common/model/dto/auth"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/persistent/sql"
 )
 
 type (

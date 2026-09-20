@@ -1,7 +1,7 @@
 package sqlv2
 
 import (
-	sqlOculi "github.com/ravielze/oculi/persistent/sql"
+	sqlOculi "github.com/Pengenalan-Komputasi-ITB/oculi/persistent/sql"
 )
 
 func (i *Impl) RegisterObject(obj ...interface{}) sqlOculi.API {

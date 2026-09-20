@@ -1,10 +1,10 @@
 package user
 
 import (
-	"github.com/ravielze/oculi/example/domain"
-	userDto "github.com/ravielze/oculi/example/model/dto/user"
-	"github.com/ravielze/oculi/example/resources"
-	"github.com/ravielze/oculi/request"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/example/domain"
+	userDto "github.com/Pengenalan-Komputasi-ITB/oculi/example/model/dto/user"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/example/resources"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/request"
 )
 
 type (

@@ -2,7 +2,7 @@ package radix36
 
 import (
 	"github.com/gofrs/uuid"
-	"github.com/ravielze/oculi/common/baseX"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/common/baseX"
 )
 
 func (r *radix36) FromUUID(value uuid.UUID) {

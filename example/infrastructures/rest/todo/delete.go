@@ -2,9 +2,9 @@ package todo
 
 import (
 	"github.com/labstack/echo/v4"
-	oculiContext "github.com/ravielze/oculi/context"
-	"github.com/ravielze/oculi/example/constants"
-	request "github.com/ravielze/oculi/request/echo"
+	oculiContext "github.com/Pengenalan-Komputasi-ITB/oculi/context"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/example/constants"
+	request "github.com/Pengenalan-Komputasi-ITB/oculi/request/echo"
 )
 
 func (c *Controller) Delete(ec echo.Context) error {

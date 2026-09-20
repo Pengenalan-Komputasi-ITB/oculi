@@ -1,7 +1,7 @@
 package postgre
 
 import (
-	"github.com/ravielze/oculi/persistent/sql"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/persistent/sql"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )

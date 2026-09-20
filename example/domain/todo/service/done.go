@@ -1,8 +1,8 @@
 package service
 
 import (
-	"github.com/ravielze/oculi/example/constants"
-	"github.com/ravielze/oculi/request"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/example/constants"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/request"
 )
 
 func (s *service) Done(req request.ReqContext, todoId uint64) error {

@@ -1,9 +1,9 @@
 package external
 
 import (
-	"github.com/ravielze/oculi/example/config"
-	"github.com/ravielze/oculi/logs"
-	"github.com/ravielze/oculi/logs/zap"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/example/config"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/logs"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/logs/zap"
 	z "go.uber.org/zap"
 )
 

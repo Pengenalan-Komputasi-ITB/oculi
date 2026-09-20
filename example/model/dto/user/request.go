@@ -1,7 +1,7 @@
 package user
 
 import (
-	"github.com/ravielze/oculi/example/model/dao"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/example/model/dao"
 )
 
 type (
