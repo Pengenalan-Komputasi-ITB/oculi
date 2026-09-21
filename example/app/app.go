@@ -1,14 +1,14 @@
 package app
 
 import (
-	"github.com/ravielze/oculi/app"
-	"github.com/ravielze/oculi/example/di"
-	"github.com/ravielze/oculi/example/infrastructures"
-	"github.com/ravielze/oculi/example/resources"
-	mw "github.com/ravielze/oculi/middleware/token"
-	"github.com/ravielze/oculi/server"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/app"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/example/di"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/example/infrastructures"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/example/resources"
+	mw "github.com/Pengenalan-Komputasi-ITB/oculi/middleware/token"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/server"
 
-	webserver "github.com/ravielze/oculi/server/echo"
+	webserver "github.com/Pengenalan-Komputasi-ITB/oculi/server/echo"
 	"go.uber.org/dig"
 )
 

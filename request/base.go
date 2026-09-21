@@ -8,11 +8,11 @@ import (
 	"strings"
 
 	"github.com/gofrs/uuid"
-	"github.com/ravielze/oculi/common/baseX/radix36"
-	"github.com/ravielze/oculi/common/model/dto/auth"
-	consts "github.com/ravielze/oculi/constant/errors"
-	keyConsts "github.com/ravielze/oculi/constant/key"
-	"github.com/ravielze/oculi/persistent/sql"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/common/baseX/radix36"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/common/model/dto/auth"
+	consts "github.com/Pengenalan-Komputasi-ITB/oculi/constant/errors"
+	keyConsts "github.com/Pengenalan-Komputasi-ITB/oculi/constant/key"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/persistent/sql"
 )
 
 type (

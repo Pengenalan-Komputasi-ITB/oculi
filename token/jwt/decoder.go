@@ -5,9 +5,9 @@ import (
 	"strings"
 
 	"github.com/golang-jwt/jwt/v4"
-	consts "github.com/ravielze/oculi/constant/errors"
-	key "github.com/ravielze/oculi/constant/key"
-	"github.com/ravielze/oculi/token"
+	consts "github.com/Pengenalan-Komputasi-ITB/oculi/constant/errors"
+	key "github.com/Pengenalan-Komputasi-ITB/oculi/constant/key"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/token"
 )
 
 type (

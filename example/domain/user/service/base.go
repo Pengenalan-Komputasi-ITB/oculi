@@ -1,12 +1,12 @@
 package service
 
 import (
-	"github.com/ravielze/oculi/example/domain/user/repository"
-	"github.com/ravielze/oculi/example/model/dao"
-	userDto "github.com/ravielze/oculi/example/model/dto/user"
-	"github.com/ravielze/oculi/example/resources"
-	"github.com/ravielze/oculi/hash"
-	"github.com/ravielze/oculi/request"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/example/domain/user/repository"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/example/model/dao"
+	userDto "github.com/Pengenalan-Komputasi-ITB/oculi/example/model/dto/user"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/example/resources"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/hash"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/request"
 )
 
 type (

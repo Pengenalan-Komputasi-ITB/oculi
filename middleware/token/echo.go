@@ -4,13 +4,13 @@ import (
 	"net/http"
 
 	"github.com/labstack/echo/v4"
-	"github.com/ravielze/oculi/common/model/dto/auth"
-	errConsts "github.com/ravielze/oculi/constant/errors"
-	consts "github.com/ravielze/oculi/constant/key"
-	"github.com/ravielze/oculi/context"
-	errorUtil "github.com/ravielze/oculi/errors"
-	"github.com/ravielze/oculi/response"
-	"github.com/ravielze/oculi/token"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/common/model/dto/auth"
+	errConsts "github.com/Pengenalan-Komputasi-ITB/oculi/constant/errors"
+	consts "github.com/Pengenalan-Komputasi-ITB/oculi/constant/key"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/context"
+	errorUtil "github.com/Pengenalan-Komputasi-ITB/oculi/errors"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/response"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/token"
 )
 
 type (

@@ -7,7 +7,7 @@ import (
 	"sync"
 
 	"github.com/labstack/echo/v4"
-	"github.com/ravielze/oculi/encoding/jsoniter"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/encoding/jsoniter"
 )
 
 //go:embed template.html

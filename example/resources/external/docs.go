@@ -4,8 +4,8 @@ import (
 	_ "embed"
 
 	"github.com/labstack/echo/v4"
-	"github.com/ravielze/oculi/docs"
-	"github.com/ravielze/oculi/example/config"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/docs"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/example/config"
 )
 
 //go:embed docs.json

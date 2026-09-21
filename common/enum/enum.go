@@ -4,8 +4,8 @@ import (
 	"database/sql/driver"
 	"reflect"
 
-	consts "github.com/ravielze/oculi/constant/errors"
-	"github.com/ravielze/oculi/encoding/jsoniter"
+	consts "github.com/Pengenalan-Komputasi-ITB/oculi/constant/errors"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/encoding/jsoniter"
 )
 
 type (

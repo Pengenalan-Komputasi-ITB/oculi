@@ -1,8 +1,8 @@
 package external
 
 import (
-	"github.com/ravielze/oculi/encoding"
-	"github.com/ravielze/oculi/encoding/jsoniter"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/encoding"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/encoding/jsoniter"
 )
 
 func NewJsonEncoding() encoding.Encoding {

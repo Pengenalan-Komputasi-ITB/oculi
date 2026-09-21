@@ -1,9 +1,9 @@
 package todo
 
 import (
-	"github.com/ravielze/oculi/di"
-	"github.com/ravielze/oculi/example/domain/todo/repository"
-	"github.com/ravielze/oculi/example/domain/todo/service"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/di"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/example/domain/todo/repository"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/example/domain/todo/service"
 	"go.uber.org/dig"
 )
 

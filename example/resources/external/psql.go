@@ -1,12 +1,12 @@
 package external
 
 import (
-	"github.com/ravielze/oculi/example/config"
-	"github.com/ravielze/oculi/example/model/dao"
-	"github.com/ravielze/oculi/logs"
-	"github.com/ravielze/oculi/persistent/sql"
-	"github.com/ravielze/oculi/persistent/sql/postgre"
-	sqlv2 "github.com/ravielze/oculi/persistent/sql/v2"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/example/config"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/example/model/dao"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/logs"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/persistent/sql"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/persistent/sql/postgre"
+	sqlv2 "github.com/Pengenalan-Komputasi-ITB/oculi/persistent/sql/v2"
 )
 
 type (

@@ -3,7 +3,7 @@ package bcrypt
 import (
 	"testing"
 
-	consts "github.com/ravielze/oculi/constant/errors"
+	consts "github.com/Pengenalan-Komputasi-ITB/oculi/constant/errors"
 	"github.com/stretchr/testify/assert"
 )
 

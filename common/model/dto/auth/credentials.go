@@ -4,7 +4,7 @@ import (
 	"reflect"
 
 	"github.com/danhper/structomap"
-	"github.com/ravielze/oculi/encoding/jsoniter"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/encoding/jsoniter"
 )
 
 type StandardCredentials struct {

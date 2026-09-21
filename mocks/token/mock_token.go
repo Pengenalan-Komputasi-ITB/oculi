@@ -11,8 +11,8 @@ import (
 
 	uuid "github.com/gofrs/uuid"
 	gomock "github.com/golang/mock/gomock"
-	auth "github.com/ravielze/oculi/common/model/dto/auth"
-	token "github.com/ravielze/oculi/token"
+	auth "github.com/Pengenalan-Komputasi-ITB/oculi/common/model/dto/auth"
+	token "github.com/Pengenalan-Komputasi-ITB/oculi/token"
 )
 
 // MockEncoder is a mock of Encoder interface.

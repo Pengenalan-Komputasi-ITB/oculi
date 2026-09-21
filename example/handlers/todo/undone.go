@@ -1,9 +1,9 @@
 package todo
 
 import (
-	"github.com/ravielze/oculi/common/functions"
-	consts "github.com/ravielze/oculi/constant/key"
-	"github.com/ravielze/oculi/request"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/common/functions"
+	consts "github.com/Pengenalan-Komputasi-ITB/oculi/constant/key"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/request"
 )
 
 func (h *handler) Undone(req request.ReqContext) error {

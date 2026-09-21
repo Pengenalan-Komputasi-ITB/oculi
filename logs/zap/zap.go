@@ -4,7 +4,7 @@ import (
 	"io"
 
 	"github.com/labstack/gommon/log"
-	"github.com/ravielze/oculi/logs"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/logs"
 	"go.uber.org/zap"
 )
 

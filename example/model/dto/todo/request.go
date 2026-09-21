@@ -1,10 +1,10 @@
 package todo
 
 import (
-	"github.com/ravielze/oculi/common/functions/typeutils"
-	"github.com/ravielze/oculi/common/model/dto"
-	"github.com/ravielze/oculi/example/model/dao"
-	"github.com/ravielze/oculi/request"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/common/functions/typeutils"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/common/model/dto"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/example/model/dao"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/request"
 )
 
 type (

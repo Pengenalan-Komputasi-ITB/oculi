@@ -3,13 +3,15 @@ package storage
 import (
 	"bytes"
 	"io"
+	"net/url"
+	"time"
 
+	consts "github.com/Pengenalan-Komputasi-ITB/oculi/constant/errors"
+	errorUtil "github.com/Pengenalan-Komputasi-ITB/oculi/errors"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/request"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/storage"
 	"github.com/gabriel-vasile/mimetype"
 	"github.com/minio/minio-go/v7"
-	consts "github.com/ravielze/oculi/constant/errors"
-	errorUtil "github.com/ravielze/oculi/errors"
-	"github.com/ravielze/oculi/request"
-	"github.com/ravielze/oculi/storage"
 )
 
 func (b *bucket) Delete(ctx request.ReqContext) error {
@@ -296,4 +298,51 @@ func (b *bucket) StatObject(ctx request.ReqContext, objectName string) (storage.
 		Size:         info.Size,
 		ContentType:  info.ContentType,
 	}, nil
+}
+
+func (b *bucket) PresignedGetObject(ctx request.ReqContext, objectName string, expiry time.Duration) (string, error) {
+	b.mu.RLock()
+	defer b.mu.RUnlock()
+
+	if b.isDeleted {
+		return "", consts.ErrBucketDeleted
+	}
+
+	reqParams := make(url.Values)
+
+	presignedURL, err := b.signer.PresignedGetObject(
+		ctx.Context(),
+		b.name,
+		objectName,
+		expiry,
+		reqParams,
+	)
+
+	if err != nil {
+		return "", errorUtil.Convert(err)
+	}
+
+	return presignedURL.String(), nil
+}
+
+func (b *bucket) PresignedPutObject(ctx request.ReqContext, objectName string, expiry time.Duration) (string, error) {
+	b.mu.RLock()
+	defer b.mu.RUnlock()
+
+	if b.isDeleted {
+		return "", consts.ErrBucketDeleted
+	}
+
+	presignedURL, err := b.signer.PresignedPutObject(
+		ctx.Context(),
+		b.name,
+		objectName,
+		expiry,
+	)
+
+	if err != nil {
+		return "", errorUtil.Convert(err)
+	}
+
+	return presignedURL.String(), nil
 }

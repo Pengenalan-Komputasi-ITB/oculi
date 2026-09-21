@@ -1,8 +1,8 @@
 package resources
 
 import (
-	"github.com/ravielze/oculi/di"
-	"github.com/ravielze/oculi/example/resources/external"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/di"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/example/resources/external"
 	"go.uber.org/dig"
 )
 

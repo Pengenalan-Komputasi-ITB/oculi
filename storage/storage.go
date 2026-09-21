@@ -5,8 +5,8 @@ import (
 	"io"
 	"time"
 
+	"github.com/Pengenalan-Komputasi-ITB/oculi/request"
 	"github.com/minio/minio-go/v7"
-	"github.com/ravielze/oculi/request"
 )
 
 type (
@@ -51,6 +51,11 @@ type (
 
 		// Get object info
 		StatObject(ctx request.ReqContext, objectName string) (ObjectInfo, error)
+
+		// Get presigned url for get object
+		PresignedGetObject(ctx request.ReqContext, objectName string, expiry time.Duration) (string, error)
+		// Get presigned url for put object
+		PresignedPutObject(ctx request.ReqContext, objectName string, expiry time.Duration) (string, error)
 	}
 
 	BucketInfo struct {

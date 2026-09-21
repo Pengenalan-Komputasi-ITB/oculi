@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/ravielze/oculi/common/model/dto/health"
-	"github.com/ravielze/oculi/request"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/common/model/dto/health"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/request"
 )
 
 func (h *handler) Check(ctx request.ReqContext) health.CheckResponseDTO {

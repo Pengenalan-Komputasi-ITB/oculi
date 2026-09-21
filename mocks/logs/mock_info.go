@@ -8,7 +8,7 @@ import (
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
-	logs "github.com/ravielze/oculi/logs"
+	logs "github.com/Pengenalan-Komputasi-ITB/oculi/logs"
 )
 
 // MockInfo is a mock of Info interface.

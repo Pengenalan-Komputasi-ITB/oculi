@@ -2,9 +2,9 @@ package todo
 
 import (
 	"github.com/labstack/echo/v4"
-	"github.com/ravielze/oculi/example/handlers"
-	"github.com/ravielze/oculi/example/resources"
-	"github.com/ravielze/oculi/middleware/token"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/example/handlers"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/example/resources"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/middleware/token"
 	"go.uber.org/dig"
 )
 

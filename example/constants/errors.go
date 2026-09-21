@@ -4,8 +4,8 @@ import (
 	"errors"
 	"net/http"
 
-	consts "github.com/ravielze/oculi/constant/errors"
-	errorUtil "github.com/ravielze/oculi/errors"
+	consts "github.com/Pengenalan-Komputasi-ITB/oculi/constant/errors"
+	errorUtil "github.com/Pengenalan-Komputasi-ITB/oculi/errors"
 )
 
 var (

@@ -1,9 +1,9 @@
 package user
 
 import (
-	"github.com/ravielze/oculi/di"
-	"github.com/ravielze/oculi/example/domain/user/repository"
-	"github.com/ravielze/oculi/example/domain/user/service"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/di"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/example/domain/user/repository"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/example/domain/user/service"
 	"go.uber.org/dig"
 )
 

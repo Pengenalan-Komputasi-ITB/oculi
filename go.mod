@@ -1,4 +1,4 @@
-module github.com/ravielze/oculi
+module github.com/Pengenalan-Komputasi-ITB/oculi
 
 go 1.16
 

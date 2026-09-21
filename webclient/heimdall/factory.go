@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/gojek/heimdall/httpclient"
-	"github.com/ravielze/oculi/webclient"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/webclient"
 )
 
 type (

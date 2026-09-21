@@ -1,8 +1,8 @@
 package user
 
 import (
-	userDto "github.com/ravielze/oculi/example/model/dto/user"
-	"github.com/ravielze/oculi/request"
+	userDto "github.com/Pengenalan-Komputasi-ITB/oculi/example/model/dto/user"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/request"
 )
 
 func (h *handler) Login(req request.ReqContext, item userDto.LoginRequest) (userDto.CredentialResponse, error) {

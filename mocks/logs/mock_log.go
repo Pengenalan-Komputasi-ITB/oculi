@@ -10,7 +10,7 @@ import (
 
 	gomock "github.com/golang/mock/gomock"
 	log "github.com/labstack/gommon/log"
-	logs "github.com/ravielze/oculi/logs"
+	logs "github.com/Pengenalan-Komputasi-ITB/oculi/logs"
 )
 
 // MockLogger is a mock of Logger interface.

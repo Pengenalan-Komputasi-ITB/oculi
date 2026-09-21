@@ -1,10 +1,10 @@
 package repository
 
 import (
-	"github.com/ravielze/oculi/common/model/dto"
-	"github.com/ravielze/oculi/example/model/dao"
-	"github.com/ravielze/oculi/logs"
-	"github.com/ravielze/oculi/request"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/common/model/dto"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/example/model/dao"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/logs"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/request"
 )
 
 func (r *repository) Update(req request.ReqContext, userId uint64, request dto.Map) error {

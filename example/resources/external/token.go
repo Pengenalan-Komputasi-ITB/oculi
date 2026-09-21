@@ -2,9 +2,9 @@ package external
 
 import (
 	"github.com/dgrijalva/jwt-go"
-	"github.com/ravielze/oculi/example/config"
-	"github.com/ravielze/oculi/token"
-	oculiJWT "github.com/ravielze/oculi/token/jwt"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/example/config"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/token"
+	oculiJWT "github.com/Pengenalan-Komputasi-ITB/oculi/token/jwt"
 )
 
 func NewTokenizer(config *config.Env) token.Tokenizer {

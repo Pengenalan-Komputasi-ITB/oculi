@@ -5,10 +5,10 @@ import (
 
 	"github.com/go-playground/validator/v10"
 	"github.com/labstack/echo/v4"
-	oculiContext "github.com/ravielze/oculi/context"
-	"github.com/ravielze/oculi/errors"
-	"github.com/ravielze/oculi/request"
-	oculiValidator "github.com/ravielze/oculi/validator"
+	oculiContext "github.com/Pengenalan-Komputasi-ITB/oculi/context"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/errors"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/request"
+	oculiValidator "github.com/Pengenalan-Komputasi-ITB/oculi/validator"
 )
 
 type (

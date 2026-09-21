@@ -1,8 +1,8 @@
 package request
 
 import (
-	consts "github.com/ravielze/oculi/constant/key"
-	"github.com/ravielze/oculi/request"
+	consts "github.com/Pengenalan-Komputasi-ITB/oculi/constant/key"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/request"
 )
 
 type (

@@ -1,7 +1,7 @@
 package excelize
 
 import (
-	consts "github.com/ravielze/oculi/constant/errors"
+	consts "github.com/Pengenalan-Komputasi-ITB/oculi/constant/errors"
 )
 
 func (f *File) CreateStyle(styleName string, style Style) error {

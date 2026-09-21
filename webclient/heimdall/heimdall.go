@@ -7,8 +7,8 @@ import (
 	neturl "net/url"
 
 	"github.com/gojek/heimdall/httpclient"
-	errConsts "github.com/ravielze/oculi/constant/errors"
-	errUtils "github.com/ravielze/oculi/errors"
+	errConsts "github.com/Pengenalan-Komputasi-ITB/oculi/constant/errors"
+	errUtils "github.com/Pengenalan-Komputasi-ITB/oculi/errors"
 )
 
 type (

@@ -3,11 +3,11 @@ package di
 import (
 	"sync"
 
-	"github.com/ravielze/oculi/di"
-	"github.com/ravielze/oculi/example/config"
-	"github.com/ravielze/oculi/example/domain"
-	"github.com/ravielze/oculi/example/handlers"
-	"github.com/ravielze/oculi/example/resources"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/di"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/example/config"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/example/domain"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/example/handlers"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/example/resources"
 	"go.uber.org/dig"
 )
 

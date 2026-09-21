@@ -11,7 +11,7 @@ import (
 	time "time"
 
 	gomock "github.com/golang/mock/gomock"
-	sql0 "github.com/ravielze/oculi/persistent/sql"
+	sql0 "github.com/Pengenalan-Komputasi-ITB/oculi/persistent/sql"
 	gorm "gorm.io/gorm"
 	clause "gorm.io/gorm/clause"
 	logger "gorm.io/gorm/logger"

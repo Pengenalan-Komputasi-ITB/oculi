@@ -1,7 +1,7 @@
 package service
 
 import (
-	"github.com/ravielze/oculi/request"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/request"
 )
 
 func (s *service) Delete(req request.ReqContext, todoId uint64) error {

@@ -1,7 +1,7 @@
 package webserver
 
 import (
-	"github.com/ravielze/oculi/server"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/server"
 )
 
 type (

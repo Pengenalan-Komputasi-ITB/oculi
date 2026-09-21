@@ -1,7 +1,7 @@
 package config
 
 import (
-	"github.com/ravielze/oculi/di"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/di"
 	"go.uber.org/dig"
 )
 

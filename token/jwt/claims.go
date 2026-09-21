@@ -2,9 +2,9 @@ package jwt
 
 import (
 	"github.com/golang-jwt/jwt/v4"
-	"github.com/ravielze/oculi/common/model/dto/auth"
-	consts "github.com/ravielze/oculi/constant/errors"
-	"github.com/ravielze/oculi/constant/oculiTime"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/common/model/dto/auth"
+	consts "github.com/Pengenalan-Komputasi-ITB/oculi/constant/errors"
+	"github.com/Pengenalan-Komputasi-ITB/oculi/constant/oculiTime"
 )
 
 type (

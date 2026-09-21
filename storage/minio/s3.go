@@ -2,10 +2,11 @@ package storage
 
 import (
 	"context"
+	"errors"
 
+	"github.com/Pengenalan-Komputasi-ITB/oculi/storage"
 	"github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/credentials"
-	"github.com/ravielze/oculi/storage"
 )
 
 func New(endpoint, username, password string, useSSL bool) (storage.S3, error) {
@@ -18,6 +19,38 @@ func New(endpoint, username, password string, useSSL bool) (storage.S3, error) {
 	}
 	return &impl{
 		cl:      client,
+		buckets: make(map[string]storage.Bucket),
+	}, nil
+}
+
+// NewWithPublicEndpoint signs browser URLs with the public host while keeping
+// storage operations on the endpoint reachable by the backend.
+func NewWithPublicEndpoint(endpoint, publicEndpoint, username, password string, useSSL, publicUseSSL bool, region string) (storage.S3, error) {
+	if region == "" {
+		return nil, errors.New("storage region is required when generating presigned URLs")
+	}
+	newClient := func(address string, secure bool) (*minio.Client, error) {
+		return minio.New(address, &minio.Options{Creds: credentials.NewStaticV4(username, password, ""), Secure: secure, Region: region, BucketLookup: minio.BucketLookupPath})
+	}
+	client, err := newClient(endpoint, useSSL)
+	if err != nil {
+		return nil, err
+	}
+	if publicEndpoint == "" {
+		publicEndpoint = endpoint
+		publicUseSSL = useSSL
+	}
+	signer := client
+	if publicEndpoint != endpoint || publicUseSSL != useSSL {
+		signer, err = newClient(publicEndpoint, publicUseSSL)
+		if err != nil {
+			return nil, err
+		}
+	}
+	return &impl{
+		cl:      client,
+		signer:  signer,
+		region:  region,
 		buckets: make(map[string]storage.Bucket),
 	}, nil
 }
@@ -66,13 +99,14 @@ func (i *impl) InitBucket(bucketName string) (storage.Bucket, error) {
 	}
 
 	if !exists {
-		err := i.cl.MakeBucket(context.Background(), bucketName, minio.MakeBucketOptions{})
+		err := i.cl.MakeBucket(context.Background(), bucketName, minio.MakeBucketOptions{Region: i.region})
 		if err != nil {
 			return nil, err
 		}
 	}
 	i.buckets[bucketName] = &bucket{
 		cl:        i.cl,
+		signer:    i.signer,
 		name:      bucketName,
 		parent:    i,
 		isDeleted: false,
