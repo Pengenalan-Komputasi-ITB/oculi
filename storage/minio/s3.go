@@ -2,6 +2,7 @@ package storage
 
 import (
 	"context"
+	"errors"
 
 	"github.com/Pengenalan-Komputasi-ITB/oculi/storage"
 	"github.com/minio/minio-go/v7"
@@ -9,14 +10,24 @@ import (
 )
 
 func New(endpoint, username, password string, useSSL bool) (storage.S3, error) {
-	return NewWithPublicEndpoint(endpoint, endpoint, username, password, useSSL, useSSL, "us-east-1")
+	client, err := minio.New(endpoint, &minio.Options{
+		Creds:  credentials.NewStaticV4(username, password, ""),
+		Secure: useSSL,
+	})
+	if err != nil {
+		return nil, err
+	}
+	return &impl{
+		cl:      client,
+		buckets: make(map[string]storage.Bucket),
+	}, nil
 }
 
 // NewWithPublicEndpoint signs browser URLs with the public host while keeping
 // storage operations on the endpoint reachable by the backend.
 func NewWithPublicEndpoint(endpoint, publicEndpoint, username, password string, useSSL, publicUseSSL bool, region string) (storage.S3, error) {
 	if region == "" {
-		region = "us-east-1"
+		return nil, errors.New("storage region is required when generating presigned URLs")
 	}
 	newClient := func(address string, secure bool) (*minio.Client, error) {
 		return minio.New(address, &minio.Options{Creds: credentials.NewStaticV4(username, password, ""), Secure: secure, Region: region, BucketLookup: minio.BucketLookupPath})
